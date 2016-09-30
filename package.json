@@ -1,0 +1,36 @@
+{
+  "name": "expect-react-form",
+  "version": "1.0.0",
+  "description": "Expect React Form component.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamcotton/expect-react-form.git"
+  },
+  "keywords": [
+    "expect",
+    "react",
+    "form"
+  ],
+  "author": "William Cotton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamcotton/expect-react-form/issues"
+  },
+  "homepage": "https://github.com/williamcotton/expect-react-form#readme",
+  "dependencies": {
+    "react": "^15.3.2"
+  },
+  "devDependencies": {
+    "enzyme": "^2.4.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "tape": "^4.6.2"
+  }
+}
